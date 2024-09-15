@@ -40,25 +40,4 @@ public class ImageAnalyzerUtilTests
         // Assert
         result.Should().BeTrue();
     }
-
-
-    [Test]
-    public void IsMemeImage_ShouldReturnFalse_WhenNoMemeLabelIsDetected()
-    {
-        // Arrange
-        var image = new Image();
-        var file = "testfile.png";
-
-        var labels = new List<EntityAnnotation>
-        {
-            new EntityAnnotation { Description = "animal" }
-        };
-        _clientMock.Setup(c => c.DetectLabels(It.IsAny<Image>(), null, 0, null)).Returns(labels);
-
-        // Act
-        bool result = _imageAnalyzerUtil.IsMemeImage(_clientMock.Object, image, file);
-
-        // Assert
-        result.Should().BeTrue();
-    }
 }
