@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeMuncherAI", "MemeMuncherAI\MemeMuncherAI.csproj", "{432C05C8-23AE-4650-A646-FFB7E4BFE00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeMuncherAI.Tests", "MemeMuncherAI.Tests\MemeMuncherAI.Tests.csproj", "{F8F26143-5325-4A8D-B133-0C4D87C170FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432C05C8-23AE-4650-A646-FFB7E4BFE00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432C05C8-23AE-4650-A646-FFB7E4BFE00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432C05C8-23AE-4650-A646-FFB7E4BFE00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432C05C8-23AE-4650-A646-FFB7E4BFE00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F26143-5325-4A8D-B133-0C4D87C170FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F26143-5325-4A8D-B133-0C4D87C170FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F26143-5325-4A8D-B133-0C4D87C170FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F26143-5325-4A8D-B133-0C4D87C170FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
